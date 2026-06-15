@@ -7,6 +7,7 @@ console.log(3+3)
 let name="phugga"
 let age=21
 let isLoggedIn = false 
+let state;
 
 // number => 2 to power 53
 // bigint
@@ -18,5 +19,6 @@ let isLoggedIn = false
 
 // object
 
+console.log(typeof name); //string
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
