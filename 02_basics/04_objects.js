@@ -40,9 +40,22 @@ const users =[
 ]
 // console.log(users[1].email);
 
-console.log(tinderUser);
+// console.log(tinderUser);
 // console.log(Object.keys(tinderUser));
 // console.log(Object.entries(tinderUser)); //in pair form
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+const course ={
+    courseName:"java Script",
+    price:"999",
+    couseInstructor :"phugga"
+}
+course.couseInstructor //occurance 
+const {couseInstructor : instructor}=course //de structure of obj
+console.log(instructor);
 
+/*const navbar= ({company})=>{
+    
+}
+navbar(company="phugga") 
+*/
