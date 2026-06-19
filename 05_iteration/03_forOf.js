@@ -28,5 +28,4 @@ const myObject = {
 }
 // for (const [key, value] of myObject) { //not iterable
 //     console.log(key, ':-', value);
-    
 // }
